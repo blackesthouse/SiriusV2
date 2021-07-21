@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #06a0dd solid;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-stretch: condensed;
+    margin-top: 3px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-stretch: condensed;
+    margin-top: 3px;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 5px;
+    letter-spacing: 0.15em;
+    font-variant: small-caps;
+    text-align: center;
+    color: #ecf2ff;
+    padding: 60px 60px
+}
+  
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 10px;
+    background: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 85%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin-top: 10px;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.popup .content {
+    max-height: 100%;
+    overflow: auto
+}
+
+.popup .close {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.userInformation {
+    font-size: 15px;
+    color: #fff
+}
+
+@media screen and (max-width: 700px){
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}

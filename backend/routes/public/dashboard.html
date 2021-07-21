@@ -1,0 +1,94 @@
+<html lang="en">
+    <head>
+        <title>Sirius</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap">
+
+        <link rel="stylesheet" href="public/css/styles.css">
+
+        <script src="public/js/index.js"></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=0.50">
+        <meta name="description" content="A Fortnite lobbybot.">
+        <meta property="og:title" content="Sirius">
+        <meta property="og:description" content="A Fortnite lobbybot.">
+        <meta property="og:type" content="website">
+    </head>
+
+    <script>var _0x3cf2=['170960znzkTI','8035oDCern','207293JZfqWz','3461CPhptK','code','then','1SvseCS','23krRYHz','location','/get-started','186721bCynlW','1PKLNHD','30XoMQBO','/api/client/user','17294WHdJyM','604524hzqSwL'];function _0x39d6(_0x103e24,_0x288f19){return _0x39d6=function(_0x3cf2fb,_0x39d66d){_0x3cf2fb=_0x3cf2fb-0x99;var _0x275162=_0x3cf2[_0x3cf2fb];return _0x275162;},_0x39d6(_0x103e24,_0x288f19);}var _0x4c68ad=_0x39d6;(function(_0x55a016,_0x22d27c){var _0x2c2923=_0x39d6;while(!![]){try{var _0x2e6841=-parseInt(_0x2c2923(0x9c))*parseInt(_0x2c2923(0xa6))+-parseInt(_0x2c2923(0xa3))*parseInt(_0x2c2923(0xa0))+-parseInt(_0x2c2923(0x9b))*parseInt(_0x2c2923(0xa7))+-parseInt(_0x2c2923(0xa5))+parseInt(_0x2c2923(0x9f))+-parseInt(_0x2c2923(0xa8))*parseInt(_0x2c2923(0xa1))+parseInt(_0x2c2923(0xa4));if(_0x2e6841===_0x22d27c)break;else _0x55a016['push'](_0x55a016['shift']());}catch(_0x42efd4){_0x55a016['push'](_0x55a016['shift']());}}}(_0x3cf2,0x1a237),fetch(_0x4c68ad(0xa2))[_0x4c68ad(0x9a)](_0x4dfc70=>_0x4dfc70['json']())[_0x4c68ad(0x9a)](_0x55edc1=>{var _0x457a5d=_0x4c68ad;if(_0x55edc1[_0x457a5d(0x99)]==='bot_not_running')window[_0x457a5d(0x9d)]['href']=_0x457a5d(0x9e);}));</script>
+
+    <body>
+        <h1>Sirius</h1>
+
+        <input id="outfit" placeholder="SKIN"/> <button class="button" onclick='searchCosmetic("outfit")'>UPDATE</button> <h1></h1>
+        <input id="backpack" placeholder="BACKPACK"/> <button class="button" onclick='searchCosmetic("backpack")'>UPDATE</button> <button onclick="clearBackpack()">CLEAR</button> <h1></h1>
+        <input id="emote" placeholder="EMOTE"/> <button class="button" onclick='searchCosmetic("emote")'>UPDATE</button> <button onclick="stopEmote()">CLEAR</button> <h1></h1>
+        <input id="pickaxe" placeholder="PICKAXE"/> <button class="button" onclick='searchCosmetic("pickaxe")'">UPDATE</button> <h1></h1>
+        <input id="level" placeholder="LEVEL"/> <button class="button" onclick='changeLevel()'">UPDATE</button> <h1></h1>
+
+        <h1></h1><button hidden="true" id="sitin_or_sitout_button" onclick="sitOutOrSitIn()"></button> <h1></h1>
+        <h1></h1><button hidden="true" id="hide_button" onclick="hideMembers()">HIDE</button> <h1></h1>
+        
+        <button onclick="showPartyMembers()">VIEW PARTY MEMBERS</button> 
+        <button onclick="showFriends()">FRIENDS</button> <h1></h1>
+        <input id="message" placeholder="Message"/> <button onclick="sendPartyChatMessage()">SEND MESSAGE</button> <h1></h1>
+
+        <button onclick="logout()">LOGOUT</button>
+
+        <!-- Don't mind this crappy code lol -->
+
+        <div id="friends_popup" class="overlay">
+            <div class="popup">
+                <a onclick="document.getElementById('friends').innerHTML = ''" class="close" href="#">&times;</a>
+
+                <h2>Friends</h2>
+                <div id="friends" class="content"></div>
+            </div>
+        </div>
+
+        <div id="party_members_popup" class="overlay">
+            <div class="popup">
+                <a onclick="document.getElementById('party_members').innerHTML = ''" class="close" href="#">&times;</a>
+
+                <h2>Party Members</h2>
+                <div id="party_members" class="content"></div>
+            </div>
+        </div>
+
+        <div id="manage_user_popup" class="overlay">
+            <div class="popup">
+                <a onclick="document.getElementById('user').innerHTML = ''" class="close" href="#">&times;</a>
+
+                <h2 style='color: #fff' id="user_displayname"></h2>
+                <div id="user" class="content"></div>
+            </div>
+        </div>
+
+        <h4 id="error_message"></h4>
+        
+        <p class="footer">Not affiliated with Epic Games or Fortnite.</p>
+        
+        <div id="popup" class="overlay">
+            <div class="popup">
+                <a onclick="document.getElementById('cosmetic_content').innerHTML = ''" class="close" href="#">&times;</a>
+
+                <h2>Cosmetics Found</h2>
+                <div id="cosmetic_content" class="content"></div>
+            </div>
+        </div>
+
+        <div id="cosmetic_variants_popup" class="overlay">
+            <div class="popup">
+                <a onclick="document.getElementById('variants_content').innerHTML = ''" class="close" href="#">&times;</a>
+
+                <h2 id="variants_content_h1"></h2>
+                <div id="variants_content" class="content"></div>
+            </div>
+        </div>
+    </body>
+</html>
