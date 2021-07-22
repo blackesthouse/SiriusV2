@@ -1,1 +1,400 @@
-const _0x4b01=['Signed\x20in.\x20Redirecting..','&cosmeticType=','<div\x20id=\x22','No\x20cosmetics\x20found.','/api/client/changeCosmetic?value=','</h1><h1></h1>','\x22\x20class=\x22friend\x22><button>','value','length','#manage_user_popup','#popup','status','innerHTML','Invalid\x20authorization\x20code\x20supplied.','/api/client/clearEmote','member','&action=remove','tag','Default:AthenaCosmeticLoadout_j','/api/client/cosmetics','friends','option','/api/party/promote?userId=','variant_','options','&tag=','toLowerCase','\x22\x20style=\x22top:\x2030px;\x22>MANAGE</button>','pickaxe','variants','\x22\x20class=\x22cosmetic\x22\x20style=\x22display:\x20inline-block;\x22>\x20<img\x20id=\x22cosmetic_image_','manage_user_','<div\x20class=\x22user\x22\x20style=\x22display:\x20inline-block;\x22><h1\x20style=\x22color:\x20#fff;\x20top:\x2030px;\x20font-size:\x2015px\x22>','icon','<div\x20id=\x22cosmetic_','data','ADD','presence','log','<button\x20id=\x22manage_user_','653303yYgLQo','/api/client/changeCosmeticVariant?cosmeticId=','isFriend','level','\x20Variants','Yes','authorization_code','</button></div>','656525uylYzv','type','UNHIDE','forEach','parse','kick_button','<h1\x20class=\x22userInformation\x22>Account\x20ID:\x20','setItem','Authorization\x20codes\x20are\x2032\x20characters\x20long.','\x22\x20width=\x27125\x27\x20height=\x27125\x27\x20src=\x22','&pickaxeId=','<h1></h1>\x20<button\x20id=\x22add_or_remove_friend\x22>','json','location','copy_button','UNKNOWN\x20|\x20','21881FlTShy','<button\x20id=\x22remove_friend\x22>REMOVE\x20FRIEND</button>','1uBDNuC','#cosmetic_variants_popup','hide_button','image','meta','<h1\x20style=\x22color:\x20#fff;\x20font-size:\x2015px\x22>Backpack:\x20','<h1\x20style=\x22color:\x20#fff;\x20font-size:\x2015px\x22>Skin:\x20','Please\x20provide\x20at\x20least\x20one\x20parameter.','user_displayname','/api/party/hideMembers?value=false','deviceAuth','cosmetic_content','1QkpOVP','REMOVE','<h1\x20style=\x22font-size:\x2020px;\x20color:\x20#fff;\x22>','2vJubjr','getElementById','toUpperCase','find','/api/client/friend?id=','[debug]','/api/party/members','pickaxeDef','#party_members_popup','party_members','removeFriend','\x27/><h1\x20style=\x22color:\x20#fff;\x20top:\x2030px;\x20font-size:\x2010px;\x22>','variants_content_h1','<h1\x20class=\x22userInformation\x22>','characterDef','&channel=','&bid=','invite','hidden','some','/api/client/copyUser?cid=','None','</h1><img\x20width=\x27100\x27\x20height=\x27100\x27\x20src=\x22','<h1\x20style=\x22color:\x20#fff;\x20font-size:\x2015px\x22>Party\x20Leader:\x20','role','user','\x20FRIEND</button>','message','emote','AthenaCosmeticLoadout','/api/client/friends?id=','/api/client/logout','1009049JXkcIM','</h1>\x20','</h1>','<div\x20id=\x22variant_','outfit','pathname','remove_friend','524523ytMFys','/icon.png','https://fortnite-api.com/images/cosmetics/br/','Please\x20provide\x20an\x20authorization\x20code.','schema','displayName','href','null','onclick','push','variants_content','channel','connections','backpackDef','backpack','Please\x20provide\x20a\x20valid\x20level.','301443kectVB','join','/api/party/hideMembers?value=true','/api/client/changeLevel?level=','<h1\x20class=\x22userInformation\x22>Online:\x20','Signing\x20in...','split','4shwgxV','error_message','HIDE','647778hQAZZV','<button\x20id=\x22join\x22>JOIN</button>\x20<h1></h1>','CAPTAIN','\x22/><h1\x20style=\x22color:\x20#fff;\x20top:\x2030px;\x20font-size:\x2010px;\x22>','isLeader','add_or_remove_friend','\x22/>\x20<h1>\x20</h1>','/api/client/isLeader','name'];(function(_0x4ce97f,_0x594e2a){const _0x1f79c6=_0x1e18;while(!![]){try{const _0x37b2cf=parseInt(_0x1f79c6(0x188))+-parseInt(_0x1f79c6(0x14f))+parseInt(_0x1f79c6(0x180))*-parseInt(_0x1f79c6(0x19a))+parseInt(_0x1f79c6(0x145))*parseInt(_0x1f79c6(0x1a9))+parseInt(_0x1f79c6(0x198))*-parseInt(_0x1f79c6(0x14c))+-parseInt(_0x1f79c6(0x135))+-parseInt(_0x1f79c6(0x1a6))*-parseInt(_0x1f79c6(0x12e));if(_0x37b2cf===_0x594e2a)break;else _0x4ce97f['push'](_0x4ce97f['shift']());}catch(_0x149366){_0x4ce97f['push'](_0x4ce97f['shift']());}}}(_0x4b01,0x56c04),setInterval(async()=>{const _0x2c2ed1=_0x1e18;if(window[_0x2c2ed1(0x195)][_0x2c2ed1(0x133)]==='/dash'){const _0x3bff7e=await(await fetch(_0x2c2ed1(0x156)))[_0x2c2ed1(0x194)]();if(_0x3bff7e[_0x2c2ed1(0x153)])document[_0x2c2ed1(0x1aa)](_0x2c2ed1(0x19c))[_0x2c2ed1(0x1bb)]=![];else document['getElementById']('hide_button')['hidden']=!![];}},0x3e8));async function login(){const _0x264fb2=_0x1e18;document[_0x264fb2(0x1aa)]('error_message')['innerHTML']='';const _0x1fbeb2=document[_0x264fb2(0x1aa)](_0x264fb2(0x186))['value'],_0x17b96a=document[_0x264fb2(0x1aa)]('error_message');if(!_0x1fbeb2)return _0x17b96a['innerHTML']=_0x264fb2(0x138);if(_0x1fbeb2[_0x264fb2(0x160)]!==0x20)return _0x17b96a[_0x264fb2(0x164)]=_0x264fb2(0x190);try{console['log']('[debug]',_0x264fb2(0x14a));const _0x261bfc=await(await fetch('/api/client/login?code='+_0x1fbeb2))[_0x264fb2(0x194)]();if(_0x261bfc[_0x264fb2(0x163)]!==0xc8)return _0x17b96a['innerHTML']=_0x261bfc[_0x264fb2(0x129)];localStorage[_0x264fb2(0x18f)]('deviceAuth',_0x261bfc[_0x264fb2(0x1a4)]),localStorage[_0x264fb2(0x18f)](_0x264fb2(0x13a),_0x261bfc[_0x264fb2(0x13a)]),console[_0x264fb2(0x17e)](_0x264fb2(0x1ae),_0x264fb2(0x158)),window[_0x264fb2(0x195)][_0x264fb2(0x13b)]='/dash';}catch(_0x18b7d9){_0x17b96a[_0x264fb2(0x164)]=_0x264fb2(0x165);}}async function logout(){const _0x389361=_0x1e18;await fetch(_0x389361(0x12d)),window['location'][_0x389361(0x13b)]='/get-started';}async function hideMembers(){const _0x5f1b1b=_0x1e18,_0x36e592=document['getElementById'](_0x5f1b1b(0x19c));_0x36e592[_0x5f1b1b(0x164)]==='HIDE'?(await fetch(_0x5f1b1b(0x147)),_0x36e592[_0x5f1b1b(0x164)]=_0x5f1b1b(0x18a)):(await fetch(_0x5f1b1b(0x1a3)),_0x36e592[_0x5f1b1b(0x164)]=_0x5f1b1b(0x14e));}async function changeLevel(){const _0x23a115=_0x1e18,_0x2e62cb=document[_0x23a115(0x1aa)](_0x23a115(0x14d));_0x2e62cb[_0x23a115(0x164)]='';const _0x3676e9=document[_0x23a115(0x1aa)](_0x23a115(0x183));if(!_0x3676e9['value']||!parseInt(_0x3676e9['value']))return _0x2e62cb[_0x23a115(0x164)]=_0x23a115(0x144);await fetch(_0x23a115(0x148)+_0x3676e9['value']),document[_0x23a115(0x1aa)](_0x23a115(0x183))[_0x23a115(0x164)]='';}async function searchCosmetic(_0x471c69){const _0x10112e=_0x1e18,_0x42b285=document['getElementById']('error_message');let _0x342ee7;switch(_0x471c69){case'outfit':_0x342ee7=document['getElementById']('outfit')['value'],type='outfit';break;case'backpack':_0x342ee7=document[_0x10112e(0x1aa)](_0x10112e(0x143))['value'],type='backpack';break;case _0x10112e(0x12a):_0x342ee7=document[_0x10112e(0x1aa)](_0x10112e(0x12a))[_0x10112e(0x15f)],type=_0x10112e(0x12a);break;case'pickaxe':_0x342ee7=document[_0x10112e(0x1aa)](_0x10112e(0x174))[_0x10112e(0x15f)],type='pickaxe';break;case'level':_0x342ee7=document[_0x10112e(0x1aa)](_0x10112e(0x183))[_0x10112e(0x15f)],type=_0x10112e(0x183);break;}if(!_0x342ee7)return _0x42b285[_0x10112e(0x164)]=_0x10112e(0x1a1);const _0x8515bb=await(await fetch('/api/client/cosmetics?query='+_0x342ee7+'&type='+_0x471c69))['json']();if(!_0x8515bb['data'][0x0])_0x42b285['innerHTML']=_0x10112e(0x15b);else try{window[_0x10112e(0x195)]['href']=_0x10112e(0x162);const _0x43936b=[];let _0x59c4db=0x0;_0x8515bb[_0x10112e(0x17b)][_0x10112e(0x18b)](_0x4cfd9c=>{const _0x4c3ba7=_0x10112e;_0x59c4db++;const _0x34bac5=_0x4cfd9c['images'][_0x4c3ba7(0x179)],_0x268f7a=document[_0x4c3ba7(0x1aa)](_0x4c3ba7(0x1a5));_0x268f7a[_0x4c3ba7(0x164)]+=_0x4c3ba7(0x17a)+_0x4cfd9c['id']+_0x4c3ba7(0x176)+_0x4cfd9c['id']+_0x4c3ba7(0x191)+_0x34bac5+_0x4c3ba7(0x152)+_0x4cfd9c['name']['toUpperCase']()+_0x4c3ba7(0x15d),_0x43936b['push']({'value':'cosmetic_image_'+_0x4cfd9c['id'],'c':_0x4cfd9c}),_0x59c4db===_0x8515bb['data']['length']&&_0x181439();});function _0x181439(){_0x43936b['forEach'](_0x5b061c=>{const _0x31d3f6=_0x1e18,_0x4cf315=document[_0x31d3f6(0x1aa)](_0x5b061c['value']);_0x4cf315['onclick']=()=>{const _0x29211e=_0x31d3f6;if(_0x5b061c['c'][_0x29211e(0x175)]){const _0x11aee1=_0x5b061c['c'][_0x29211e(0x175)][0x0][_0x29211e(0x170)];document[_0x29211e(0x1aa)](_0x29211e(0x1a5))[_0x29211e(0x164)]='',document[_0x29211e(0x1aa)](_0x29211e(0x1b5))['innerHTML']=_0x5b061c['c'][_0x29211e(0x157)]+_0x29211e(0x184);const _0x149d1b=[];let _0x1d8c9f=0x0;_0x11aee1[_0x29211e(0x18b)](_0x5603d8=>{const _0x1044dd=_0x29211e;_0x1d8c9f++,document[_0x1044dd(0x1aa)]('variants_content')[_0x1044dd(0x164)]+=_0x1044dd(0x131)+_0x5603d8[_0x1044dd(0x169)]+'\x22\x20class=\x22cosmetic_variant\x22\x20style=\x22display:\x20inline-block;\x22>\x20<img\x20width=\x27125\x27\x20height=\x27125\x27\x20src=\x27'+_0x5603d8[_0x1044dd(0x19d)]+_0x1044dd(0x1b4)+_0x5603d8[_0x1044dd(0x157)]+_0x1044dd(0x15d),_0x149d1b[_0x1044dd(0x13e)]({'value':_0x1044dd(0x16f)+_0x5603d8['tag'],'option':_0x5603d8}),_0x1d8c9f===_0x11aee1['length']&&_0x8a1b24(_0x5603d8);});function _0x8a1b24(_0x460f82){const _0x30e233=_0x29211e;_0x149d1b[_0x30e233(0x18b)](_0x523c62=>{const _0x2efd9f=_0x30e233,_0x421fcb=document[_0x2efd9f(0x1aa)](_0x523c62[_0x2efd9f(0x15f)]);_0x421fcb['onclick']=()=>changeVariant(_0x5b061c,{'tag':_0x523c62[_0x2efd9f(0x16d)][_0x2efd9f(0x169)]});});}window[_0x29211e(0x195)][_0x29211e(0x13b)]=_0x29211e(0x19b);return;}fetch(_0x29211e(0x15c)+_0x5b061c['c']['id']+_0x29211e(0x159)+_0x5b061c['c'][_0x29211e(0x189)][_0x29211e(0x15f)]),window[_0x29211e(0x195)][_0x29211e(0x13b)]='#',document[_0x29211e(0x1aa)](_0x29211e(0x1a5))['innerHTML']='',document[_0x29211e(0x1aa)](_0x29211e(0x132))[_0x29211e(0x15f)]='',document[_0x29211e(0x1aa)]('backpack')[_0x29211e(0x15f)]='',document[_0x29211e(0x1aa)]('emote')[_0x29211e(0x15f)]='',document[_0x29211e(0x1aa)](_0x29211e(0x174))['value']='',document['getElementById'](_0x29211e(0x183))['value']='';};});}}catch{}}async function changeVariant(_0x10b64f,_0x5b8344){const _0xa78830=_0x1e18;_0x10b64f=_0x10b64f['c'];const _0x4589af=_0x5b8344[_0xa78830(0x169)],_0xa71ab1=_0x10b64f[_0xa78830(0x175)][0x0][_0xa78830(0x140)];await fetch(_0xa78830(0x181)+_0x10b64f['id']+_0xa78830(0x159)+_0x10b64f[_0xa78830(0x189)][_0xa78830(0x15f)]+_0xa78830(0x171)+_0x4589af+_0xa78830(0x1b8)+_0xa71ab1),window['location'][_0xa78830(0x13b)]='#',document['getElementById'](_0xa78830(0x13f))[_0xa78830(0x164)]='',document[_0xa78830(0x1aa)](_0xa78830(0x132))['value']='',document['getElementById'](_0xa78830(0x143))[_0xa78830(0x15f)]='',document[_0xa78830(0x1aa)](_0xa78830(0x12a))[_0xa78830(0x15f)]='',document[_0xa78830(0x1aa)](_0xa78830(0x174))[_0xa78830(0x15f)]='',document['getElementById']('level')[_0xa78830(0x15f)]='';}async function stopEmote(){const _0x367631=_0x1e18;await fetch(_0x367631(0x166));}function _0x1e18(_0x15df2b,_0x1602b7){return _0x1e18=function(_0x4b0138,_0x1e1814){_0x4b0138=_0x4b0138-0x126;let _0x1a254b=_0x4b01[_0x4b0138];return _0x1a254b;},_0x1e18(_0x15df2b,_0x1602b7);}async function clearBackpack(){await fetch('/api/client/clearBackpack');}async function showFriends(){const _0x2ea4eb=_0x1e18,_0x2fbd49=document['getElementById'](_0x2ea4eb(0x16c));_0x2fbd49[_0x2ea4eb(0x164)]='';const _0x44c3e0=(await(await fetch('/api/client/user'))[_0x2ea4eb(0x194)]())['data'][_0x2ea4eb(0x16c)];let _0x5b9370=0x0;const _0x2162d3=[];_0x44c3e0[_0x2ea4eb(0x18b)](_0x10ea3c=>{const _0x2e0ee8=_0x2ea4eb;_0x5b9370++,_0x2fbd49[_0x2e0ee8(0x164)]+=_0x2e0ee8(0x15a)+_0x10ea3c['id']+_0x2e0ee8(0x15e)+_0x10ea3c[_0x2e0ee8(0x13a)]+_0x2e0ee8(0x187),_0x2162d3[_0x2e0ee8(0x13e)]({'id':_0x10ea3c['id'],'displayName':_0x10ea3c['displayName']}),_0x5b9370===_0x44c3e0['length']&&_0x460445();});function _0x460445(){const _0xf78751=_0x2ea4eb;_0x2162d3[_0xf78751(0x18b)](_0x520ef7=>{const _0x314bc1=_0xf78751,_0x517979=document[_0x314bc1(0x1aa)](_0x520ef7['id']);_0x517979[_0x314bc1(0x13d)]=()=>manageFriend(_0x520ef7);});}window[_0x2ea4eb(0x195)]['href']='#friends_popup';}async function manageFriend(_0x267f39){const _0x434d36=_0x1e18,_0x3e75d7=document[_0x434d36(0x1aa)]('user');_0x3e75d7[_0x434d36(0x164)]='',document['getElementById'](_0x434d36(0x1a2))[_0x434d36(0x164)]=_0x267f39[_0x434d36(0x13a)]||_0x434d36(0x197)+_0x267f39['id'],window['location'][_0x434d36(0x13b)]=_0x434d36(0x161);const _0x14e498=(await(await fetch(_0x434d36(0x12c)+_0x267f39['id']))[_0x434d36(0x194)]())[_0x434d36(0x17b)],_0x5c26cc=(await(await fetch(_0x434d36(0x1af)))['json']())[_0x434d36(0x17b)][_0x434d36(0x1bc)](_0xb2b4d=>_0xb2b4d['id']===_0x267f39['id']);let _0x208d9c=[];for(const _0x4bf718 in _0x14e498[_0x434d36(0x127)]['connections']){_0x208d9c[_0x434d36(0x13e)]({'platform':_0x4bf718[_0x434d36(0x1ab)](),'displayName':_0x14e498[_0x434d36(0x127)][_0x434d36(0x141)][_0x4bf718]['name']});}if(_0x14e498[_0x434d36(0x17d)][_0x434d36(0x163)]!==null)_0x3e75d7[_0x434d36(0x164)]+=_0x434d36(0x1a8)+_0x14e498['presence'][_0x434d36(0x163)]+'</h1>\x20';_0x3e75d7[_0x434d36(0x164)]+=_0x434d36(0x18e)+_0x267f39['id']+_0x434d36(0x130),_0x3e75d7['innerHTML']+=_0x434d36(0x149)+(_0x14e498['isOnline']?_0x434d36(0x185):'No')+_0x434d36(0x12f),_0x208d9c[_0x434d36(0x18b)](_0xe3fc3e=>{const _0x19cd69=_0x434d36;_0x3e75d7[_0x19cd69(0x164)]+=_0x19cd69(0x1b6)+_0xe3fc3e['platform']+':\x20'+_0xe3fc3e[_0x19cd69(0x13a)]+_0x19cd69(0x12f);});if(!_0x5c26cc&&_0x14e498['isOnline'])_0x3e75d7[_0x434d36(0x164)]+='<button\x20id=\x22invite\x22>INVITE</button>\x20';if(!_0x5c26cc&&_0x14e498['isJoinable'])_0x3e75d7[_0x434d36(0x164)]+=_0x434d36(0x150);_0x3e75d7[_0x434d36(0x164)]+=_0x434d36(0x199);const _0x4518fe=document[_0x434d36(0x1aa)](_0x434d36(0x1ba)),_0x50054=document['getElementById'](_0x434d36(0x146)),_0x14d29f=document[_0x434d36(0x1aa)](_0x434d36(0x134));if(_0x4518fe)_0x4518fe['onclick']=()=>console[_0x434d36(0x17e)]('invite');if(_0x50054)_0x50054[_0x434d36(0x13d)]=()=>console[_0x434d36(0x17e)]('join');if(_0x14d29f)_0x14d29f[_0x434d36(0x13d)]=()=>console[_0x434d36(0x17e)](_0x434d36(0x1b3));}async function showPartyMembers(){const _0x339a63=_0x1e18,_0x540ef6=document[_0x339a63(0x1aa)](_0x339a63(0x1b2));_0x540ef6['innerHTML']='';const _0x31c1e0=await(await fetch('/api/party/members'))[_0x339a63(0x194)](),_0x282a6d=[];let _0x5649fd=0x0;_0x31c1e0[_0x339a63(0x17b)][_0x339a63(0x18b)](_0x11c37a=>{const _0x210689=_0x339a63;_0x5649fd++,console[_0x210689(0x17e)](_0x11c37a);const _0x2872b1=JSON[_0x210689(0x18c)](_0x11c37a[_0x210689(0x19e)][_0x210689(0x139)]['Default:AthenaCosmeticLoadout_j'])[_0x210689(0x12b)][_0x210689(0x1b7)][_0x210689(0x14b)]('/')[0x6]['split']('.')[0x0],_0x1957e9=_0x210689(0x137)+_0x2872b1[_0x210689(0x172)]()+_0x210689(0x136);let _0x441196='';_0x441196+=_0x210689(0x178)+(_0x11c37a[_0x210689(0x126)]===_0x210689(0x151)?_0x11c37a[_0x210689(0x13a)]+'\x20👑':_0x11c37a[_0x210689(0x13a)])+_0x210689(0x1bf)+_0x1957e9+'\x22/><h1></h1>',_0x441196+=_0x210689(0x17f)+_0x11c37a['id']+_0x210689(0x173),_0x282a6d[_0x210689(0x13e)]({'id':_0x210689(0x177)+_0x11c37a['id'],'member':_0x11c37a}),_0x540ef6[_0x210689(0x164)]+=_0x441196,_0x31c1e0['data']['length']===_0x5649fd&&_0x20da43();}),window[_0x339a63(0x195)]['href']=_0x339a63(0x1b1);function _0x20da43(){const _0x44b3a5=_0x339a63;_0x282a6d[_0x44b3a5(0x18b)](_0x183835=>{const _0xe86052=_0x44b3a5,_0x538856=document['getElementById'](_0x183835['id']);_0x538856[_0xe86052(0x13d)]=()=>manageUser(_0x183835[_0xe86052(0x167)]);});}}async function manageUser(_0x4c1513){const _0x14c2d2=_0x1e18;document[_0x14c2d2(0x1aa)](_0x14c2d2(0x127))['innerHTML']='',document[_0x14c2d2(0x1aa)](_0x14c2d2(0x1a2))[_0x14c2d2(0x164)]=_0x4c1513['displayName']||_0x14c2d2(0x197)+_0x4c1513['id'],window['location']['href']=_0x14c2d2(0x161);const _0x115a45=(await(await fetch('/api/client/isLeader'))[_0x14c2d2(0x194)]())['isLeader'],_0x544611=_0x4c1513['id']!==(await(await fetch('/api/client/user'))[_0x14c2d2(0x194)]())[_0x14c2d2(0x17b)][_0x14c2d2(0x127)]['id']?![]:!![],_0x49a630=document[_0x14c2d2(0x1aa)](_0x14c2d2(0x127)),_0x44a5a8=JSON[_0x14c2d2(0x18c)](_0x4c1513['meta'][_0x14c2d2(0x139)][_0x14c2d2(0x16a)])[_0x14c2d2(0x12b)],_0x446f16=_0x44a5a8[_0x14c2d2(0x1b7)][_0x14c2d2(0x14b)]('/')[0x6][_0x14c2d2(0x14b)]('.')[0x0];let _0x5d0adf;try{_0x5d0adf=_0x44a5a8[_0x14c2d2(0x142)]['split']('/')[0x6][_0x14c2d2(0x14b)]('.')[0x0];}catch{_0x5d0adf=_0x14c2d2(0x13c);}const _0x5cc014=_0x44a5a8[_0x14c2d2(0x1b0)][_0x14c2d2(0x14b)]('/')[0x6]['split']('.')[0x0],_0x402fa8=await(await fetch(_0x14c2d2(0x16b)))['json'](),_0x515dcb=_0x402fa8['data']['find'](_0x271d4b=>_0x271d4b['id'][_0x14c2d2(0x172)]()===_0x446f16[_0x14c2d2(0x172)]()),_0x51207b=_0x402fa8['data']['find'](_0x10bf49=>_0x10bf49['id'][_0x14c2d2(0x172)]()===_0x5d0adf[_0x14c2d2(0x172)]()),_0x555a90=_0x402fa8[_0x14c2d2(0x17b)][_0x14c2d2(0x1ac)](_0x3abdfa=>_0x3abdfa['id']['toLowerCase']()===_0x5cc014[_0x14c2d2(0x172)]()),_0x45fee6=_0x515dcb['images']['icon'];_0x49a630[_0x14c2d2(0x164)]+='<img\x20height=\x27150\x27\x20width=\x27150\x27\x20src=\x22'+_0x45fee6+_0x14c2d2(0x155),_0x49a630[_0x14c2d2(0x164)]+=_0x14c2d2(0x1a0)+_0x515dcb[_0x14c2d2(0x157)]+_0x14c2d2(0x130),_0x49a630[_0x14c2d2(0x164)]+=_0x14c2d2(0x19f)+(_0x5d0adf!==_0x14c2d2(0x13c)?_0x51207b[_0x14c2d2(0x157)]:_0x14c2d2(0x1be))+_0x14c2d2(0x130),_0x49a630[_0x14c2d2(0x164)]+='<h1\x20style=\x22color:\x20#fff;\x20font-size:\x2015px\x22>Pickaxe:\x20'+_0x555a90[_0x14c2d2(0x157)]+_0x14c2d2(0x130),_0x49a630[_0x14c2d2(0x164)]+='<h1\x20style=\x22color:\x20#fff;\x20font-size:\x2015px\x22>Account\x20ID:\x20'+_0x4c1513['id']+'</h1>',_0x49a630[_0x14c2d2(0x164)]+=_0x14c2d2(0x1c0)+(_0x4c1513[_0x14c2d2(0x126)]===_0x14c2d2(0x151)?'Yes':'No')+_0x14c2d2(0x130);if(_0x115a45&&!_0x544611){_0x49a630[_0x14c2d2(0x164)]+='<button\x20id=\x22promote_button\x22>PROMOTE</button>\x20',_0x49a630[_0x14c2d2(0x164)]+='<button\x20id=\x22kick_button\x22>KICK</button>\x20',_0x49a630['innerHTML']+='<button\x20id=\x22copy_button\x22>COPY</button';const _0x1b499a=(await(await fetch(_0x14c2d2(0x12c)+_0x4c1513['id']))[_0x14c2d2(0x194)]())[_0x14c2d2(0x182)];_0x49a630[_0x14c2d2(0x164)]+=_0x14c2d2(0x193)+(_0x1b499a?_0x14c2d2(0x1a7):_0x14c2d2(0x17c))+_0x14c2d2(0x128),document[_0x14c2d2(0x1aa)]('promote_button')['onclick']=()=>promoteUser(_0x4c1513),document[_0x14c2d2(0x1aa)](_0x14c2d2(0x18d))['onclick']=()=>kickUser(_0x4c1513),document[_0x14c2d2(0x1aa)](_0x14c2d2(0x154))[_0x14c2d2(0x13d)]=()=>addOrRemoveFriend(_0x4c1513),document['getElementById'](_0x14c2d2(0x196))['onclick']=()=>copyUser(_0x515dcb,_0x51207b,_0x555a90);}}async function copyUser(_0x78aff2,_0x5a0d1a,_0x4ce312){const _0xc75f26=_0x1e18,_0x474435=_0x78aff2['id'],_0x34893a=_0x5a0d1a['id']||null,_0x1ba03=_0x4ce312['id'];await fetch(_0xc75f26(0x1bd)+_0x474435+_0xc75f26(0x1b9)+_0x34893a+_0xc75f26(0x192)+_0x1ba03);}async function promoteUser(_0x5b59cc){const _0x23fc44=_0x1e18;await fetch(_0x23fc44(0x16e)+_0x5b59cc['id']);}async function kickUser(_0x279137){await fetch('/api/party/kick?userId='+_0x279137['id']);}async function addOrRemoveFriend(_0x5d896f){const _0x5fa23e=_0x1e18,_0x13551a=(await(await fetch('/api/client/friends?id='+_0x5d896f['id']))[_0x5fa23e(0x194)]())[_0x5fa23e(0x163)]===0xc8;if(_0x13551a)await fetch(_0x5fa23e(0x1ad)+_0x5d896f['id']+_0x5fa23e(0x168));else await fetch(_0x5fa23e(0x1ad)+_0x5d896f['id']+'&action=add');}async function sendPartyChatMessage(){const _0x24bf03=_0x1e18,_0x3656b2=document[_0x24bf03(0x1aa)](_0x24bf03(0x129));await fetch('/api/party/sendMessage?message='+_0x3656b2),_0x3656b2[_0x24bf03(0x15f)]='';}
+setInterval(async() => {
+    if (window.location.pathname === '/dash') {
+        const res = await (await fetch('/api/client/isLeader')).json();
+        if (res.isLeader) document.getElementById('hide_button').hidden = false;
+        else document.getElementById('hide_button').hidden = true;
+    }
+}, 1000);
+
+async function login() {
+    document.getElementById('error_message').innerHTML = '';
+
+    const code = document.getElementById('authorization_code').value;
+    const errorMessage = document.getElementById('error_message');
+
+    if (!code) return errorMessage.innerHTML = 'Please provide an authorization code.';
+    if (code.length !== 32) return errorMessage.innerHTML = 'Authorization codes are 32 characters long.';
+
+    try {
+        console.log('[debug]', 'Signing in...');
+
+        const bot = await (await fetch(`/api/client/login?code=${code}`)).json();
+        if (bot.status !== 200) return errorMessage.innerHTML = bot.message;
+
+        localStorage.setItem('deviceAuth', bot.deviceAuth);
+        localStorage.setItem('displayName', bot.displayName);
+
+        console.log('[debug]', 'Signed in. Redirecting..');
+        window.location.href = '/dash';
+    } catch (err) {
+        errorMessage.innerHTML = 'Invalid authorization code supplied.';
+    }
+}
+
+async function logout() {
+    await fetch('/api/client/logout');
+    window.location.href = '/get-started';
+}
+
+async function hideMembers() {
+    const hideButton = document.getElementById('hide_button');
+
+    if (hideButton.innerHTML === 'HIDE') {
+        await fetch('/api/party/hideMembers?value=true');
+        hideButton.innerHTML = 'UNHIDE';
+    } else {
+        await fetch('/api/party/hideMembers?value=false');
+        hideButton.innerHTML = 'HIDE';
+    }
+}
+
+async function changeLevel() {
+    const errorMessage = document.getElementById('error_message');
+
+    errorMessage.innerHTML = '';
+
+    const level = document.getElementById('level');
+    if (!level.value || !parseInt(level.value)) return errorMessage.innerHTML = 'Please provide a valid level.';
+
+    await fetch(`/api/client/changeLevel?level=${level.value}`);
+    document.getElementById('level').innerHTML = '';
+}
+
+async function searchCosmetic(cosmeticType) {
+    const errorMessage = document.getElementById('error_message');
+
+    let cosmeticName;
+
+    switch (cosmeticType) {
+        case 'outfit': cosmeticName = document.getElementById('outfit').value; type = 'outfit'; break;
+        case 'backpack': cosmeticName = document.getElementById('backpack').value; type = 'backpack'; break;
+        case 'emote': cosmeticName = document.getElementById('emote').value; type = 'emote'; break;
+        case 'pickaxe': cosmeticName = document.getElementById('pickaxe').value; type = 'pickaxe'; break;
+        case 'level': cosmeticName = document.getElementById('level').value; type = 'level'; break;
+    }
+
+    if (!cosmeticName) return errorMessage.innerHTML = 'Please provide at least one parameter.';
+
+    const cosmetics = await (await fetch(`/api/client/cosmetics?query=${cosmeticName}&type=${cosmeticType}`)).json();
+
+    if (!cosmetics.data[0]) errorMessage.innerHTML = 'No cosmetics found.';
+    else {
+        try {
+            window.location.href = '#popup';
+
+            const buttons = [];
+            let i = 0;
+
+            cosmetics.data.forEach(c => {
+                i++;
+                
+                const image = c.images.icon;
+                const content = document.getElementById('cosmetic_content');
+
+                content.innerHTML += `<div id="cosmetic_${c.id}" class="cosmetic" style="display: inline-block;"> <img id="cosmetic_image_${c.id}" width='125' height='125' src="${image}"/><h1 style="color: #fff; top: 30px; font-size: 10px;">${c.name.toUpperCase()}</h1><h1></h1>`;
+
+                buttons.push({
+                    value: `cosmetic_image_${c.id}`,
+                    c
+                });
+
+                if (i === cosmetics.data.length) {
+                    chooseCosmetic();
+                }
+            });
+
+            function chooseCosmetic() {
+                buttons.forEach(b => {
+                    const cosmeticImageButton = document.getElementById(b.value);
+
+                    cosmeticImageButton.onclick = () => {
+                        if (b.c.variants) {
+                            const options = b.c.variants[0].options;
+
+                            document.getElementById('cosmetic_content').innerHTML = '';
+                            document.getElementById('variants_content_h1').innerHTML = `${b.c.name} Variants`;
+
+                            const buttons = [];
+                            let i = 0;
+
+                            options.forEach(option => {
+                                i++;
+
+                                document.getElementById('variants_content').innerHTML += `<div id="variant_${option.tag}" class="cosmetic_variant" style="display: inline-block;"> <img width='125' height='125' src='${option.image}'/><h1 style="color: #fff; top: 30px; font-size: 10px;">${option.name}</h1><h1></h1>`;
+
+                                buttons.push({
+                                    value: `variant_${option.tag}`,
+                                    option
+                                });
+
+                                if (i === options.length) {
+                                    chooseVariant(option);
+                                }
+                            });
+
+                            function chooseVariant(option) {
+                                buttons.forEach(button => {
+                                    const doc = document.getElementById(button.value);
+
+                                    doc.onclick = () => changeVariant(b, { tag: button.option.tag });
+                                });
+                            }
+                            
+                            window.location.href = '#cosmetic_variants_popup';
+                            return;
+                        }
+
+                        fetch(`/api/client/changeCosmetic?value=${b.c.id}&type=${b.c.type.value}`);
+                        window.location.href = '#';
+
+                        document.getElementById('cosmetic_content').innerHTML = '';
+                        document.getElementById('outfit').value = '';
+                        document.getElementById('backpack').value = '';
+                        document.getElementById('emote').value = '';
+                        document.getElementById('pickaxe').value = '';
+                        document.getElementById('level').value = '';
+                    }
+                });
+            }
+        } catch {}
+    }
+}
+
+async function changeVariant(cosmetic, variantOptions) {
+    cosmetic = cosmetic.c;
+
+    const tag = variantOptions.tag;
+    const channel = cosmetic.variants[0].channel;
+
+    await fetch(`/api/client/changeCosmeticVariant?cosmeticId=${cosmetic.id}&cosmeticType=${cosmetic.type.value}&tag=${tag}&channel=${channel}`);
+    window.location.href = '#';
+
+    document.getElementById('variants_content').innerHTML = '';
+    document.getElementById('outfit').value = '';
+    document.getElementById('backpack').value = '';
+    document.getElementById('emote').value = '';
+    document.getElementById('pickaxe').value = '';
+    document.getElementById('level').value = '';
+}
+
+async function stopEmote() {
+    await fetch('/api/client/clearEmote');
+}
+
+async function clearBackpack() {
+    await fetch('/api/client/clearBackpack');
+}
+
+async function showFriends() {
+    const friendsElement = document.getElementById('friends');
+
+    friendsElement.innerHTML = '';
+
+    const friends = (await (await fetch('/api/client/user')).json()).data.friends;
+
+    let i = 0;
+    const buttons = [];
+
+    friends.forEach(friend => {
+        i++;
+
+        friendsElement.innerHTML += `<div id="${friend.id}" class="friend"><button>${friend.displayName}</button></div>`;
+        buttons.push({
+            id: friend.id,
+            displayName: friend.displayName
+        });
+
+        if (i === friends.length) {
+            chooseFriend();
+        }
+    });
+
+    function chooseFriend() {
+        buttons.forEach(b => {
+            const button = document.getElementById(b.id);
+
+            button.onclick = () => manageFriend(b);
+        });
+    }
+    
+    window.location.href = '#friends_popup';
+}
+
+async function manageFriend(friend) {
+    const user = document.getElementById('user');
+
+    user.innerHTML = '';
+    document.getElementById('user_displayname').innerHTML = friend.displayName || `UNKNOWN | ${friend.id}`;
+    
+    window.location.href = '#manage_user_popup';
+
+    const friendInformation = (await (await fetch(`/api/client/friends?id=${friend.id}`)).json()).data;
+    const isInParty = (await (await fetch('/api/party/members')).json()).data.some(x => x.id === friend.id);
+
+    let connections = [];
+
+    for (const key in friendInformation.user.connections) {
+        connections.push({
+            platform: key.toUpperCase(),
+            displayName: friendInformation.user.connections[key].name
+        });
+    }
+
+    if (friendInformation.presence.status !== null) user.innerHTML += `<h1 style="font-size: 20px; color: #fff;">${friendInformation.presence.status}</h1> `;
+
+    user.innerHTML += `<h1 class="userInformation">Account ID: ${friend.id}</h1>`;
+    user.innerHTML += `<h1 class="userInformation">Online: ${friendInformation.isOnline ? 'Yes' : 'No'}</h1> `;
+
+
+    connections.forEach(c => {
+        user.innerHTML += `<h1 class="userInformation">${c.platform}: ${c.displayName}</h1> `;
+    });
+
+    if (!isInParty && friendInformation.isOnline) user.innerHTML += `<button id="invite">INVITE</button> `;
+    if (!isInParty && friendInformation.isJoinable) user.innerHTML += `<button id="join">JOIN</button> <h1></h1>`;
+
+    user.innerHTML += `<button id="remove_friend">REMOVE FRIEND</button>`;
+
+    const inviteButton = document.getElementById('invite');
+    const joinButton = document.getElementById('join');
+    const removeFriendButton = document.getElementById('remove_friend');
+
+    if (inviteButton) inviteButton.onclick = () => inviteUser(friend);
+    if (joinButton) joinButton.onclick = () => joinUser(friend);
+    if (removeFriendButton) removeFriendButton.onclick = () => addOrRemoveFriend(friend);
+}
+
+async function showPartyMembers() {
+    const element = document.getElementById('party_members');
+
+    element.innerHTML = '';
+
+    const partyMembers = await (await fetch('/api/party/members')).json();
+
+    const buttons = [];
+    let i = 0;
+
+    partyMembers.data.forEach(member => {
+        i++;
+        
+        const skinId = JSON.parse(member.meta.schema['Default:AthenaCosmeticLoadout_j']).AthenaCosmeticLoadout.characterDef.split('/')[6].split('.')[0];
+        const skinImage = `https://fortnite-api.com/images/cosmetics/br/${skinId.toLowerCase()}/icon.png`;
+
+        let text = '';
+
+        text += `<div class="user" style="display: inline-block;"><h1 style="color: #fff; top: 30px; font-size: 15px">${member.role === 'CAPTAIN' ? `${member.displayName} 👑` : member.displayName}</h1><img width='100' height='100' src="${skinImage}"/><h1></h1>`;
+        text += `<button id="manage_user_${member.id}" style="top: 30px;">MANAGE</button>`;
+
+        buttons.push({
+            id: `manage_user_${member.id}`,
+            member
+        });
+
+        element.innerHTML += text;
+
+        if (partyMembers.data.length === i) {
+            chooseUser();
+        }
+    });
+
+    window.location.href = '#party_members_popup';
+
+    function chooseUser() {
+        buttons.forEach(b => {
+            const button = document.getElementById(b.id);
+
+            button.onclick = () => manageUser(b.member);
+        });
+    }
+}
+
+async function manageUser(partyMember) {
+    document.getElementById('user').innerHTML = '';
+    document.getElementById('user_displayname').innerHTML = partyMember.displayName || `UNKNOWN | ${partyMember.id}`;
+
+    window.location.href = '#manage_user_popup';
+
+    const isLeader = (await (await fetch('/api/client/isLeader')).json()).isLeader;
+    const isMe = partyMember.id !== (await (await fetch('/api/client/user')).json()).data.user.id ? false : true;
+
+    const user = document.getElementById('user');
+    const meta = JSON.parse(partyMember.meta.schema['Default:AthenaCosmeticLoadout_j']).AthenaCosmeticLoadout;
+    
+    const skinId = meta.characterDef.split('/')[6].split('.')[0];
+    
+    let backpackId;
+
+    try {
+        backpackId = meta.backpackDef.split('/')[6].split('.')[0]
+    } catch {
+        backpackId = 'null';
+    }
+
+    const pickaxeId = meta.pickaxeDef.split('/')[6].split('.')[0];
+    
+    const cosmetics = await (await fetch('/api/client/cosmetics')).json();
+    const skin = cosmetics.data.find(x => x.id.toLowerCase() === skinId.toLowerCase());
+    const backpack = cosmetics.data.find(x => x.id.toLowerCase() === backpackId.toLowerCase());
+    const pickaxe = cosmetics.data.find(x => x.id.toLowerCase() === pickaxeId.toLowerCase());
+
+    const skinUrl = skin.images.icon;
+
+    user.innerHTML += `<img height='150' width='150' src="${skinUrl}"/> <h1> </h1>`
+    user.innerHTML += `<h1 style="color: #fff; font-size: 15px">Skin: ${skin.name}</h1>`;
+    user.innerHTML += `<h1 style="color: #fff; font-size: 15px">Backpack: ${backpackId !== 'null' ? backpack.name : 'None'}</h1>`;
+    user.innerHTML += `<h1 style="color: #fff; font-size: 15px">Pickaxe: ${pickaxe.name}</h1>`;
+    user.innerHTML += `<h1 style="color: #fff; font-size: 15px">Account ID: ${partyMember.id}</h1>`;
+    user.innerHTML += `<h1 style="color: #fff; font-size: 15px">Party Leader: ${partyMember.role === 'CAPTAIN' ? 'Yes' : 'No'}</h1>`;
+
+    if (isLeader && !isMe) {
+        user.innerHTML += `<button id="promote_button">PROMOTE</button> `;
+        user.innerHTML += `<button id="kick_button">KICK</button> `;
+        user.innerHTML += `<button id="copy_button">COPY</button`;
+
+        const isFriend = (await (await fetch(`/api/client/friends?id=${partyMember.id}`)).json()).isFriend;
+        user.innerHTML += `<h1></h1> <button id="add_or_remove_friend">${isFriend ? 'REMOVE' : 'ADD'} FRIEND</button>`;
+
+        document.getElementById('promote_button').onclick = () => promoteUser(partyMember);
+        document.getElementById('kick_button').onclick = () => kickUser(partyMember);
+        document.getElementById('add_or_remove_friend').onclick = () => addOrRemoveFriend(partyMember);
+        document.getElementById('copy_button').onclick = () => copyUser(skin, backpack, pickaxe);
+    }
+}
+
+async function copyUser(skin, backpack, pickaxe) {
+    const skinId = skin.id;
+    const backpackId = backpack.id || null;
+    const pickaxeId = pickaxe.id;
+
+    await fetch(`/api/client/copyUser?cid=${skinId}&bid=${backpackId}&pickaxeId=${pickaxeId}`);
+}
+
+async function promoteUser(user) {
+    await fetch(`/api/party/promote?userId=${user.id}`);
+}
+
+async function kickUser(user) {
+    await fetch(`/api/party/kick?userId=${user.id}`);
+}
+
+async function joinUser(user) {
+    await fetch(`/api/party/join?userId=${user.id}`);
+}
+
+async function inviteUser(user) {
+    await fetch(`/api/party/invite?userId=${user.id}`);
+}
+
+async function addOrRemoveFriend(user) {
+    const isFriend = (await (await fetch(`/api/client/friends?id=${user.id}`)).json()).status === 200;
+
+    if (isFriend) await fetch(`/api/client/friend?id=${user.id}&action=remove`);
+    else await fetch(`/api/client/friend?id=${user.id}&action=add`);
+}
+
+async function sendPartyChatMessage() {
+    const message = document.getElementById('message');
+    await fetch(`/api/party/sendMessage?message=${message}`);
+
+    message.value = '';
+}
