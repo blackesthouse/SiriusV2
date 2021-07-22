@@ -3,9 +3,9 @@ module.exports = async (backend, req, res) => {
 
     const friendId = req.query.id;
 
-    if (!friendId) return res.send({ status: 200, data: backend.client.friends.map(x => x) });
+    if (!friendId) return res.send({ status: 200, data: backend.client.friends.cache.map(x => x) });
 
-    const friend = backend.client.friends.get(friendId);
+    const friend = backend.client.friends.cache.get(friendId);
 
     if (!friend) return res.send({ status: 404, message: 'Friend not found.', code: 'friend_not_found' });
 

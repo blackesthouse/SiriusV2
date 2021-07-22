@@ -4,7 +4,7 @@ module.exports = async (backend, req, res) => {
     const client = backend.client;
     const friends = [];
 
-    client.friends.forEach(f => {
+    client.friends.cache.forEach(f => {
         friends.push({
             id: f.id,
             displayName: f.displayName

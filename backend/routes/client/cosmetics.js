@@ -1,5 +1,5 @@
 module.exports = async (backend, req, res) => {
-    if (req.query.query) {
+    if (req.query.query && req.query.type) {
         const name = req.query.query;
         const cosmeticType = req.query.type;
 
@@ -12,6 +12,16 @@ module.exports = async (backend, req, res) => {
         res.send({
             status: 200,
             data: cosmetics
+        });
+    } else if (req.query.id && !req.query.type) {
+        const id = req.query.id;
+
+        const cosmetic = backend.cosmetics.find(x => x.id === id);
+        if (!cosmetic) return res.send({ status: 404 });
+
+        res.send({
+            status: 200,
+            data: cosmetic
         });
     } else {
         res.send({

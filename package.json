@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
-    "fnbr": "^1.4.1",
+    "fnbr": "github:fnbrjs/fnbr.js",
     "moment": "^2.29.1"
   },
   "devDependencies": {},
