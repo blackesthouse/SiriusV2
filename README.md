@@ -31,11 +31,13 @@ You can use this on [repl.it](https://replit.com) however, if someone has a link
 
 ## Support
 
-<a href="https://discord.gg/3BjEQTaPHt"><img src="https://discordapp.com/api/guilds/864914797246152764/widget.png?style=banner1"></a>
+<a href="https://discord.gg/euCKmjG9mj"><img src="https://discordapp.com/api/guilds/795062612025933896/widget.png?style=banner1"></a>
 
 ## Credits
 
 Thanks to [This Nils](https://github.com/ThisNils), [Alex](https://github.com/alextusinean) and [any contributors](https://github.com/fnbrjs/fnbr.js/graphs/contributors) for creating the library to interact with Fortnite's HTTP and XMPP services ([fnbr.js](https://fnbr.js.org)) which is used in SiriusV2.
+
+Mello for pro
 
 ## License
 
