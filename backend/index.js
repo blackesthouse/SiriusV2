@@ -1,5 +1,3 @@
-const { readdirSync } = require('fs');
-
 class Backend {
     constructor() {
         this.express = require('express');
@@ -21,8 +19,8 @@ class Backend {
     }
 
     loadRoutes(path) {
-        readdirSync(this.resolve(`${this.path}/${path}`)).forEach(dir => {
-            const routes = readdirSync(this.resolve(`${this.path}/${path}/${dir}`));
+        this.fs.readdirSync(this.resolve(`${this.path}/${path}`)).forEach(dir => {
+            const routes = this.fs.readdirSync(this.resolve(`${this.path}/${path}/${dir}`));
 
             if (dir === 'client' || dir === 'party') {
                 for (const route of routes) {
