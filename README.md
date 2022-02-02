@@ -25,7 +25,7 @@ or run `START.bat` / `START.sh` depending on what platform you are on.
 
 ## Repl
 
-You can use this on [repl.it](https://replit.com) however, if someone has a link to your project, they are able to control your bot.
+You can run this on [repl.it](https://replit.com)!
 
 [![Run on Repl.it](https://repl.it/badge/github/Azlxy/SiriusV2)](https://repl.it/github/Azlxy/SiriusV2)
 
@@ -35,9 +35,7 @@ You can use this on [repl.it](https://replit.com) however, if someone has a link
 
 ## Credits
 
-Thanks to [This Nils](https://github.com/ThisNils), [Alex](https://github.com/alextusinean) and [any contributors](https://github.com/fnbrjs/fnbr.js/graphs/contributors) for creating the library to interact with Fortnite's HTTP and XMPP services ([fnbr.js](https://fnbr.js.org)) which is used in SiriusV2.
-
-Mello for pro
+Thanks to [This Nils](https://github.com/ThisNils), [Alex](https://github.com/alextusinean) and [every contributor](https://github.com/fnbrjs/fnbr.js/graphs/contributors) for creating the library to interact with Fortnite's HTTP and XMPP services ([fnbr.js](https://fnbr.js.org)) which is used in SiriusV2.
 
 ## License
 
